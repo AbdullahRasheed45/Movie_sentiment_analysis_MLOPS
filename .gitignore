@@ -5,6 +5,7 @@ local_s3
 # C extensions
 *.so
 cred.txt
+data/
 # Distribution / packaging
 .Python
 env/
