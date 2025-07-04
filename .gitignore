@@ -7,7 +7,7 @@ reports/
 *.so
 models/
 cred.txt
-data/
+
 # Distribution / packaging
 .Python
 env/
