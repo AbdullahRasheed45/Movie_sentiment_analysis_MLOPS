@@ -2,8 +2,10 @@
 __pycache__/
 *.py[cod]
 local_s3
+reports/
 # C extensions
 *.so
+models/
 cred.txt
 data/
 # Distribution / packaging
