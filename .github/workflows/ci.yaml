@@ -27,6 +27,11 @@ jobs:
         run: |
           pip install -r requirements.txt
 
+      - name: Debug CAPSTONE_TEST
+        run: |
+          echo "CAPSTONE_TEST is set? [${{ secrets.CAPSTONE_TEST != '' }}]"
+
+
       - name: run pipeline
         env:
           CAPSTONE_TEST: ${{secrets.CAPSTONE_TEST}}
