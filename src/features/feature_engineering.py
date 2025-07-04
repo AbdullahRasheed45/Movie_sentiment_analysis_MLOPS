@@ -51,6 +51,7 @@ def apply_bow(train_data: pd.DataFrame, test_data: pd.DataFrame, max_features: i
         y_test = test_data['sentiment'].values
 
         X_train_bow = vectorizer.fit_transform(X_train)
+        
         X_test_bow = vectorizer.transform(X_test)
 
         train_df = pd.DataFrame(X_train_bow.toarray())
