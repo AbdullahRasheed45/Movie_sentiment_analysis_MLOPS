@@ -5,7 +5,7 @@ local_s3
 reports/
 # C extensions
 *.so
-models/
+# models/
 cred.txt
 
 # Distribution / packaging
